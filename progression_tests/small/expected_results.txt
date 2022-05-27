@@ -1,0 +1,174 @@
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                   | The OpenMC Monte Carlo Code
+         Copyright | 2011-2021 MIT and OpenMC contributors
+           License | https://docs.openmc.org/en/latest/license.html
+           Version | 0.13.0-dev
+          Git SHA1 | 69506bc447a7657f6b7328327912c08d24f655cb
+         Date/Time | 2022-01-25 20:44:59
+    OpenMP Threads | 64
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U234 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/U234.h5
+ Reading U235 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/U235.h5
+ Reading U238 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/U238.h5
+ Reading U236 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/U236.h5
+ Reading O16 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/O16.h5
+ Reading O17 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/O17.h5
+ Reading He3 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/He3.h5
+ Reading He4 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/He4.h5
+ Reading Sn112 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn112.h5
+ Reading Sn114 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn114.h5
+ Reading Sn115 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn115.h5
+ Reading Sn116 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn116.h5
+ Reading Sn117 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn117.h5
+ Reading Sn118 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn118.h5
+ Reading Sn119 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn119.h5
+ Reading Sn120 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn120.h5
+ Reading Sn122 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn122.h5
+ Reading Sn124 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Sn124.h5
+ Reading Fe54 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Fe54.h5
+ Reading Fe56 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Fe56.h5
+ Reading Fe57 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Fe57.h5
+ Reading Fe58 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Fe58.h5
+ Reading Cr50 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Cr50.h5
+ Reading Cr52 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Cr52.h5
+ Reading Cr53 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Cr53.h5
+ Reading Cr54 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Cr54.h5
+ Reading Zr90 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Zr90.h5
+ Reading Zr91 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Zr91.h5
+ Reading Zr92 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Zr92.h5
+ Reading Zr94 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Zr94.h5
+ Reading Zr96 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/Zr96.h5
+ Reading B10 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/B10.h5
+ Reading B11 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/B11.h5
+ Reading H1 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/H1.h5
+ Reading H2 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/H2.h5
+ Reading c_H_in_H2O from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294.0 K
+ Maximum neutron data temperature: 294.0 K
+ Preparing distributed cell instances...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000.0 eV for U235
+Allocating device particle buffer of size: 4.192 MB. Particle size = 4.192 KB
+Moving 7 surfaces to device...
+Moving 1 universes to device...
+Moving 4 cells to device...
+Moving 0 lattices to device...
+Moving 35 nuclides to device...
+Moving 4 materials to device...
+Fissionable Material Statistics:
+ Max Nuclide Count: 6
+ Min Nuclide Count: 6
+ # Fissionable Materials with >= 200 Nuclides: 0
+ # Fissionable Materials with  < 200 Nuclides: 1
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.13016
+ Creating state point statepoint.1.h5...
+Releasing data from device...
+
+ ======================>     RUNTIME INFORMATION     <======================
+
+ Simulation Algorithm              = Event-Based
+ Simulation Execution Location     = GPU Device
+ Faddeeva Implementation           = Ben Forget Rational Approximation
+ Total time for initialization     = 1.6496e+00 seconds
+   Reading cross sections          = 1.5048e+00 seconds
+ Total time in simulation          = 4.9080e-01 seconds
+   Time in transport only          = 4.8687e-01 seconds
+     Particle initialization       = 3.5284e-04 seconds
+     XS lookups (Total)            = 2.3178e-01 seconds
+     XS lookups (Fuel)             = 2.5398e-02 seconds
+     XS lookups (Non-Fuel)         = 2.0639e-01 seconds
+     Fuel energy sorting           = 4.6000e-06 seconds
+     Avg. time per sort            =        inf seconds
+     Advancing                     = 8.0526e-02 seconds
+     Surface crossings             = 9.0451e-02 seconds
+     Collisions                    = 8.0522e-02 seconds
+     Particle death                = 1.5613e-04 seconds
+     Revival                       = 2.4464e-03 seconds
+   Time in inactive batches        = 0.0000e+00 seconds
+   Time in active batches          = 4.9080e-01 seconds
+   Time synchronizing fission bank = 1.0561e-04 seconds
+     Sampling source sites         = 9.6182e-05 seconds
+     SEND/RECV source sites        = 9.2000e-06 seconds
+   Time accumulating tallies       = 9.1000e-07 seconds
+   Time writing statepoints        = 3.6965e-03 seconds
+ Total time for finalization       = 1.8486e-02 seconds
+ Total time elapsed                = 2.2285e+00 seconds
+ Calculation Rate (active)         = 2037.51 particles/second
+
+ ============================>     RESULTS     <============================
+
+ WARNING: Could not compute uncertainties -- only one active batch simulated!
+ k-effective (Collision)    = 1.11140
+ k-effective (Track-length) = 1.13016
+ k-effective (Absorption)   = 1.16662
+ Leakage Fraction           = 0.00000
+

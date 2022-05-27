@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>4000000</particles>
+  <max_particles_in_flight>1000000</max_particles_in_flight>
+  <temperature_multipole>false</temperature_multipole>
+  <batches>2</batches>
+  <inactive>1</inactive>
+  <source strength="1.0">
+    <space type="fission">
+      <parameters>-0.62992 -0.62992 -1 0.62992 0.62992 1</parameters>
+    </space>
+  </source>
+</settings>
