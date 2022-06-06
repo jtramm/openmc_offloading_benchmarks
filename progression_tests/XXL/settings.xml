@@ -2,7 +2,6 @@
 <settings>
   <run_mode>eigenvalue</run_mode>
   <particles>10000000</particles>
-  <max_particles_in_flight>2500000</max_particles_in_flight>
   <temperature_multipole>false</temperature_multipole>
   <batches>2</batches>
   <inactive>1</inactive>
