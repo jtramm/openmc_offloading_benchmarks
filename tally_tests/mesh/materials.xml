@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
   <material depletable="true" id="1" name="fuel">
-    <density units="g/cc" value="4.5" />
-    <nuclide ao="1.0" name="U235" />
+    <density units="g/cc" value="10.29769" />
+    <nuclide ao="0.01" name="U235" />
+    <nuclide ao="0.99" name="U238" />
+    <nuclide ao="2.0" name="O16" />
   </material>
   <material id="2" name="moderator">
     <density units="g/cc" value="1.0" />

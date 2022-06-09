@@ -16,8 +16,10 @@ particles = 10000
 
 # Instantiate some Materials and register the appropriate Nuclides
 fuel = openmc.Material(name='fuel')
-fuel.set_density('g/cc', 4.5)
-fuel.add_nuclide('U235', 1.)
+fuel.set_density('g/cc', 10.29769)
+fuel.add_nuclide('U235', 0.01)
+fuel.add_nuclide('U238', 0.99)
+fuel.add_nuclide('O16', 2.0)
 
 moderator = openmc.Material(name='moderator')
 moderator.set_density('g/cc', 1.0)
@@ -35,7 +37,7 @@ materials_file.export_to_xml()
 ###############################################################################
 
 pitch=1.26
-pinrad = 0.055
+pinrad = 0.56
 
 # Instantiate Surfaces
 left  = openmc.XPlane(x0=-pitch, boundary_type='reflective')
@@ -74,7 +76,7 @@ settings_file.inactive = inactive
 settings_file.particles = particles
 
 # Create an initial uniform spatial source distribution over fissionable zones
-bounds = [-1, -1, -1, 1, 1, 1]
+bounds = [-pitch, -pitch, -pitch, pitch, pitch, pitch]
 uniform_dist = openmc.stats.Box(bounds[:3], bounds[3:], only_fissionable=True)
 settings_file.source = openmc.source.Source(space=uniform_dist)
 
@@ -85,24 +87,34 @@ settings_file.export_to_xml()
 ###############################################################################
 
 # Instantiate a tally mesh
-mesh = openmc.RegularMesh(mesh_id=1)
-mesh.dimension = [4, 4]
-mesh.lower_left = [-2, -2]
-mesh.width = [1, 1]
+mesh = openmc.RegularMesh()
+mesh.ndimension = 2
+mesh.dimension = [2, 2]
+mesh.lower_left = [-pitch, -pitch]
+mesh.width = [pitch, pitch]
 
 # Instantiate tally Filter
 mesh_filter = openmc.MeshFilter(mesh)
 
-# Instantiate tally Trigger
-trigger = openmc.Trigger(trigger_type='rel_err', threshold=1E-2)
-trigger.scores = ['all']
-
 # Instantiate the Tally
-tally = openmc.Tally(tally_id=1)
+tally = openmc.Tally()
 tally.filters = [mesh_filter]
 tally.scores = ['total']
-tally.triggers = [trigger]
 
 # Instantiate a Tallies collection and export to XML
 tallies_file = openmc.Tallies([tally])
 tallies_file.export_to_xml()
+
+###############################################################################
+#                   Exporting to OpenMC plots.xml file
+###############################################################################
+
+plot = openmc.Plot()
+plot.origin = [0, 0,0]
+plot.width = [2*pitch, 2*pitch]
+plot.pixels = [500, 500]
+plot.color_by = 'material'
+
+# Instantiate a Plots collection and export to XML
+plot_file = openmc.Plots([plot])
+plot_file.export_to_xml()

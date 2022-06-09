@@ -27,9 +27,8 @@
            License | https://docs.openmc.org/en/latest/license.html
            Version | 0.13.0-dev
           Git SHA1 | 763817d6ab0a80506340e47d897aded03f9921b9
-         Date/Time | 2022-06-08 16:32:31
-     MPI Processes | 1
-    OpenMP Threads | 112
+         Date/Time | 2022-06-09 15:40:16
+    OpenMP Threads | 64
 
  Reading settings XML file...
  Reading cross sections XML file...
@@ -37,12 +36,14 @@
  Reading geometry XML file...
  Reading U235 from
  /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/U235.h5
+ Reading U238 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/U238.h5
+ Reading O16 from
+ /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/O16.h5
  Reading H1 from
  /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/H1.h5
  Reading H2 from
  /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/H2.h5
- Reading O16 from
- /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/O16.h5
  Reading O17 from
  /gpfs/jlse-fs0/projects/intel_anl_shared/openmc_data/nndc_hdf5/O17.h5
  Reading c_H_in_H2O from
@@ -59,154 +60,50 @@
 
   Bat./Gen.      k            Average k
   =========   ========   ====================
-        1/1    0.07091
-        2/1    0.05847
-        3/1    0.05892
-        4/1    0.05964
-        5/1    0.05858
-        6/1    0.06000
-        7/1    0.05559
-        8/1    0.05755
-        9/1    0.05838
-       10/1    0.05863
-       11/1    0.06010
-       12/1    0.05657    0.05833 +/- 0.00177
-       13/1    0.05877    0.05848 +/- 0.00103
-       14/1    0.05726    0.05817 +/- 0.00079
-       15/1    0.05927    0.05839 +/- 0.00065
-       16/1    0.06362    0.05926 +/- 0.00102
-       17/1    0.06054    0.05945 +/- 0.00088
-       18/1    0.05611    0.05903 +/- 0.00087
-       19/1    0.05950    0.05908 +/- 0.00077
-       20/1    0.06006    0.05918 +/- 0.00069
- Triggers unsatisfied, max unc./thresh. is 2.3597954052890744 for total in tally
- 1
- The estimated number of batches is 66
- Creating state point statepoint.020.h5...
-       21/1    0.06013    0.05926 +/- 0.00063
- Triggers unsatisfied, max unc./thresh. is 2.326303521062758 for total in tally
- 1
- The estimated number of batches is 70
-       22/1    0.05811    0.05917 +/- 0.00059
- Triggers unsatisfied, max unc./thresh. is 2.387163466537103 for total in tally
- 1
- The estimated number of batches is 79
-       23/1    0.06190    0.05938 +/- 0.00058
- Triggers unsatisfied, max unc./thresh. is 2.203932836492248 for total in tally
- 1
- The estimated number of batches is 74
-       24/1    0.05884    0.05934 +/- 0.00054
- Triggers unsatisfied, max unc./thresh. is 2.136857944915478 for total in tally
- 1
- The estimated number of batches is 74
-       25/1    0.06050    0.05942 +/- 0.00051
- Triggers unsatisfied, max unc./thresh. is 1.9923160428010067 for total in tally
- 1
- The estimated number of batches is 70
-       26/1    0.05998    0.05945 +/- 0.00047
- Triggers unsatisfied, max unc./thresh. is 1.8648178358089469 for total in tally
- 1
- The estimated number of batches is 66
-       27/1    0.06019    0.05950 +/- 0.00045
- Triggers unsatisfied, max unc./thresh. is 1.7514311795367283 for total in tally
- 1
- The estimated number of batches is 63
-       28/1    0.05725    0.05937 +/- 0.00044
- Triggers unsatisfied, max unc./thresh. is 1.6691916893019305 for total in tally
- 1
- The estimated number of batches is 61
-       29/1    0.05695    0.05924 +/- 0.00044
- Triggers unsatisfied, max unc./thresh. is 1.6049506895223542 for total in tally
- 1
- The estimated number of batches is 59
-       30/1    0.06231    0.05940 +/- 0.00044
- Triggers unsatisfied, max unc./thresh. is 1.567281600900688 for total in tally
- 1
- The estimated number of batches is 60
-       31/1    0.05828    0.05934 +/- 0.00042
- Triggers unsatisfied, max unc./thresh. is 1.4947019508339212 for total in tally
- 1
- The estimated number of batches is 57
-       32/1    0.05928    0.05934 +/- 0.00040
- Triggers unsatisfied, max unc./thresh. is 1.4287962212809375 for total in tally
- 1
- The estimated number of batches is 55
-       33/1    0.06040    0.05939 +/- 0.00039
- Triggers unsatisfied, max unc./thresh. is 1.3674183785453797 for total in tally
- 1
- The estimated number of batches is 54
-       34/1    0.06477    0.05961 +/- 0.00043
- Triggers unsatisfied, max unc./thresh. is 1.3167968527727552 for total in tally
- 1
- The estimated number of batches is 52
-       35/1    0.05906    0.05959 +/- 0.00042
- Triggers unsatisfied, max unc./thresh. is 1.271142052225818 for total in tally
- 1
- The estimated number of batches is 51
-       36/1    0.05986    0.05960 +/- 0.00040
- Triggers unsatisfied, max unc./thresh. is 1.222661588579222 for total in tally
- 1
- The estimated number of batches is 49
-       37/1    0.06134    0.05966 +/- 0.00039
- Triggers unsatisfied, max unc./thresh. is 1.1766244972123092 for total in tally
- 1
- The estimated number of batches is 48
-       38/1    0.06395    0.05982 +/- 0.00041
- Triggers unsatisfied, max unc./thresh. is 1.141364612870104 for total in tally
- 1
- The estimated number of batches is 47
-       39/1    0.05691    0.05972 +/- 0.00040
- Triggers unsatisfied, max unc./thresh. is 1.1258315284639429 for total in tally
- 1
- The estimated number of batches is 47
-       40/1    0.05848    0.05967 +/- 0.00039
- Triggers unsatisfied, max unc./thresh. is 1.0920861205640036 for total in tally
- 1
- The estimated number of batches is 46
-       41/1    0.05985    0.05968 +/- 0.00038
- Triggers unsatisfied, max unc./thresh. is 1.0713365083105897 for total in tally
- 1
- The estimated number of batches is 46
-       42/1    0.05821    0.05963 +/- 0.00037
- Triggers unsatisfied, max unc./thresh. is 1.0373283106423792 for total in tally
- 1
- The estimated number of batches is 45
-       43/1    0.05778    0.05958 +/- 0.00036
- Triggers unsatisfied, max unc./thresh. is 1.0122223043011995 for total in tally
- 1
- The estimated number of batches is 44
-       44/1    0.05838    0.05954 +/- 0.00035
- Triggers satisfied for batch 44
- Creating state point statepoint.044.h5...
+        1/1    1.04452
+        2/1    1.06899
+        3/1    1.03919
+        4/1    1.06622
+        5/1    1.05132
+        6/1    1.08040
+        7/1    1.05506
+        8/1    1.03589
+        9/1    1.05695
+       10/1    1.04462
+       11/1    1.04432
+       12/1    1.07468    1.05950 +/- 0.01518
+       13/1    1.05245    1.05715 +/- 0.00907
+       14/1    1.05710    1.05714 +/- 0.00641
+       15/1    1.06308    1.05833 +/- 0.00511
+       16/1    1.02599    1.05294 +/- 0.00682
+       17/1    1.06029    1.05399 +/- 0.00586
+       18/1    1.04829    1.05327 +/- 0.00512
+       19/1    1.07462    1.05565 +/- 0.00510
+       20/1    1.04755    1.05484 +/- 0.00463
+ Creating state point statepoint.20.h5...
 
  =======================>     TIMING STATISTICS     <=======================
 
- Total time for initialization     = 1.3588e-01 seconds
-   Reading cross sections          = 1.0894e-01 seconds
- Total time in simulation          = 1.3736e+00 seconds
-   Time in transport only          = 1.3201e+00 seconds
-     Particle initialization       = 8.7277e-02 seconds
-     XS lookups                    = 2.3468e-01 seconds
-     Advancing                     = 4.1468e-01 seconds
-     Surface crossings             = 2.8912e-01 seconds
-     Collisions                    = 1.7301e-01 seconds
-     Particle death                = 1.1843e-01 seconds
-   Time in inactive batches        = 3.0827e-01 seconds
-   Time in active batches          = 1.0654e+00 seconds
-   Time synchronizing fission bank = 1.8897e-02 seconds
-     Sampling source sites         = 1.3556e-02 seconds
-     SEND/RECV source sites        = 5.2956e-03 seconds
-   Time accumulating tallies       = 1.2525e-03 seconds
-   Time writing statepoints        = 1.9990e-02 seconds
- Total time for finalization       = 8.6724e-04 seconds
- Total time elapsed                = 1.5357e+00 seconds
- Calculation Rate (inactive)       = 324390.0 particles/second
- Calculation Rate (active)         = 319137.0 particles/second
+ Total time for initialization     = 1.8582e-01 seconds
+   Reading cross sections          = 1.6342e-01 seconds
+ Total time in simulation          = 7.4259e-01 seconds
+   Time in transport only          = 6.8075e-01 seconds
+   Time in inactive batches        = 1.6497e-01 seconds
+   Time in active batches          = 5.7762e-01 seconds
+   Time synchronizing fission bank = 2.2066e-02 seconds
+     Sampling source sites         = 6.8745e-03 seconds
+     SEND/RECV source sites        = 1.5182e-02 seconds
+   Time accumulating tallies       = 4.3604e-04 seconds
+   Time writing statepoints        = 1.8902e-02 seconds
+ Total time for finalization       = 9.2450e-04 seconds
+ Total time elapsed                = 9.3547e-01 seconds
+ Calculation Rate (inactive)       = 606167.0 particles/second
+ Calculation Rate (active)         = 173125.0 particles/second
 
  ============================>     RESULTS     <============================
 
- k-effective (Collision)     = 0.05931 +/- 0.00040
- k-effective (Track-length)  = 0.05954 +/- 0.00035
- k-effective (Absorption)    = 0.05915 +/- 0.00065
- Combined k-effective        = 0.05949 +/- 0.00034
- Leakage Fraction            = 0.97189 +/- 0.00031
+ k-effective (Collision)     = 1.05457 +/- 0.00487
+ k-effective (Track-length)  = 1.05484 +/- 0.00463
+ k-effective (Absorption)    = 1.05789 +/- 0.00431
+ Combined k-effective        = 1.05710 +/- 0.00374
+ Leakage Fraction            = 0.00000 +/- 0.00000
