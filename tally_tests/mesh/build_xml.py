@@ -100,6 +100,7 @@ mesh_filter = openmc.MeshFilter(mesh)
 tally = openmc.Tally()
 tally.filters = [mesh_filter]
 tally.scores = ['total']
+tally.nuclides = ['U238','U235', 'O16']
 
 # Instantiate a Tallies collection and export to XML
 tallies_file = openmc.Tallies([tally])

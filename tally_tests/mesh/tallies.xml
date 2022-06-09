@@ -10,6 +10,7 @@
   </filter>
   <tally id="1">
     <filters>1</filters>
+    <nuclides>U238 U235 O16</nuclides>
     <scores>total</scores>
   </tally>
 </tallies>

@@ -1,14 +1,30 @@
  ============================>     TALLY 1     <============================
 
  Mesh Index (1, 1)
-   Total Material
-     Total Reaction Rate                  7.90306 +/- 0.0192052
+   U238
+     Total Reaction Rate                  1.50727 +/- 0.00277378
+   U235
+     Total Reaction Rate                  0.174883 +/- 0.000799607
+   O16
+     Total Reaction Rate                  1.44206 +/- 0.00261469
  Mesh Index (2, 1)
-   Total Material
-     Total Reaction Rate                  16.4248 +/- 0.0379082
+   U238
+     Total Reaction Rate                  0.00000 +/- 0.00000
+   U235
+     Total Reaction Rate                  0.00000 +/- 0.00000
+   O16
+     Total Reaction Rate                  1.25672 +/- 0.002983
  Mesh Index (1, 2)
-   Total Material
-     Total Reaction Rate                  7.58846 +/- 0.0266014
+   U238
+     Total Reaction Rate                  1.47602 +/- 0.0038894
+   U235
+     Total Reaction Rate                  0.158746 +/- 0.00119378
+   O16
+     Total Reaction Rate                  1.41710 +/- 0.00335957
  Mesh Index (2, 2)
-   Total Material
-     Total Reaction Rate                  7.89859 +/- 0.0100626
+   U238
+     Total Reaction Rate                  1.50538 +/- 0.00173771
+   U235
+     Total Reaction Rate                  0.175229 +/- 0.000794293
+   O16
+     Total Reaction Rate                  1.44103 +/- 0.00149658
