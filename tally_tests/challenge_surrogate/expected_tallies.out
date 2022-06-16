@@ -1,0 +1,52 @@
+ ============================>     TALLY 1     <============================
+
+ Mesh Index (1, 1, 1)
+   Distributed Cell u4->c4->l3(0,0)->u1->c1
+     Total Material
+       Total Reaction Rate                  1.34837 +/- 0.00586901
+       Fission Rate                         0.0740027 +/- 0.000523933
+       Absorption Rate                      0.154031 +/- 0.00122637
+       Scattering Rate                      1.19434 +/- 0.0050725
+       (n,gamma)                            0.0796948 +/- 0.000802234
+       (n,2n)                               0.000348129 +/- 1.40719e-05
+   Distributed Cell u4->c4->l3(0,1)->u1->c1
+     Total Material
+       Total Reaction Rate                  1.31445 +/- 0.00650092
+       Fission Rate                         0.0670269 +/- 0.000737195
+       Absorption Rate                      0.141161 +/- 0.00110678
+       Scattering Rate                      1.17329 +/- 0.00567415
+       (n,gamma)                            0.0737898 +/- 0.000435958
+       (n,2n)                               0.000370941 +/- 1.34448e-05
+   Distributed Cell u4->c4->l3(1,1)->u1->c1
+     Total Material
+       Total Reaction Rate                  1.35224 +/- 0.00474366
+       Fission Rate                         0.0744844 +/- 0.00066526
+       Absorption Rate                      0.154863 +/- 0.00112879
+       Scattering Rate                      1.19738 +/- 0.0036817
+       (n,gamma)                            0.080027 +/- 0.000570281
+       (n,2n)                               0.000377129 +/- 1.20002e-05
+ Mesh Index (1, 1, 2)
+   Distributed Cell u4->c4->l3(0,0)->u1->c1
+     Total Material
+       Total Reaction Rate                  1.32868 +/- 0.00354911
+       Fission Rate                         0.0727573 +/- 0.000323196
+       Absorption Rate                      0.150989 +/- 0.000882637
+       Scattering Rate                      1.17769 +/- 0.00321548
+       (n,gamma)                            0.0779083 +/- 0.000612081
+       (n,2n)                               0.000301577 +/- 2.81209e-05
+   Distributed Cell u4->c4->l3(0,1)->u1->c1
+     Total Material
+       Total Reaction Rate                  1.29824 +/- 0.00444285
+       Fission Rate                         0.0664259 +/- 0.00033395
+       Absorption Rate                      0.1398 +/- 0.000686121
+       Scattering Rate                      1.15844 +/- 0.00416646
+       (n,gamma)                            0.0730613 +/- 0.000446641
+       (n,2n)                               0.000297134 +/- 2.43038e-05
+   Distributed Cell u4->c4->l3(1,1)->u1->c1
+     Total Material
+       Total Reaction Rate                  1.32216 +/- 0.00507159
+       Fission Rate                         0.0725633 +/- 0.000468863
+       Absorption Rate                      0.151716 +/- 0.000877586
+       Scattering Rate                      1.17045 +/- 0.00466299
+       (n,gamma)                            0.0788334 +/- 0.000515062
+       (n,2n)                               0.000293088 +/- 1.66815e-05

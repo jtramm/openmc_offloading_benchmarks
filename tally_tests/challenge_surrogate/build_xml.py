@@ -86,23 +86,22 @@ settings_file.export_to_xml()
 #                   Exporting to OpenMC tallies.xml file
 ###############################################################################
 
-# Instantiate a tally mesh
+# Instantiate an axial mesh
 mesh = openmc.RegularMesh()
-mesh.ndimension = 2
-mesh.dimension = [2, 2]
-mesh.lower_left = [-pitch, -pitch]
-mesh.width = [pitch, pitch]
+mesh.ndimension = 3
+mesh.dimension = [1,1,2]
+mesh.lower_left = [-pitch, -pitch,-1000.0]
+mesh.width = [2*pitch, 2*pitch, 1000.0]
 
 # Instantiate tally Filter
 mesh_filter = openmc.MeshFilter(mesh)
 
-energy = openmc.EnergyFilter([0.0, 1.0, 2.0e7])
+cell_instance_filter = openmc.DistribcellFilter(fuel_cell)
 
 # Instantiate the Tally
 tally = openmc.Tally()
-tally.filters = [mesh_filter, energy]
-tally.scores = ['total', 'fission']
-tally.nuclides = ['U235', 'O16']
+tally.filters = [mesh_filter,cell_instance_filter]
+tally.scores = ['total', 'fission','absorption','scatter','(n,gamma)', '(n,2n)']
 
 # Instantiate a Tallies collection and export to XML
 tallies_file = openmc.Tallies([tally])

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" region="-5" universe="1" />
+  <cell id="2" material="2" region="5" universe="1" />
+  <cell id="3" material="2" universe="2" />
+  <cell fill="3" id="4" region="1 -2 3 -4" universe="4" />
+  <lattice id="3">
+    <pitch>1.26 1.26</pitch>
+    <dimension>2 2</dimension>
+    <lower_left>-1.26 -1.26</lower_left>
+    <universes>
+1 1 
+1 2 </universes>
+  </lattice>
+  <surface boundary="reflective" coeffs="-1.26" id="1" type="x-plane" />
+  <surface boundary="reflective" coeffs="1.26" id="2" type="x-plane" />
+  <surface boundary="reflective" coeffs="-1.26" id="3" type="y-plane" />
+  <surface boundary="reflective" coeffs="1.26" id="4" type="y-plane" />
+  <surface coeffs="0.0 0.0 0.56" id="5" type="z-cylinder" />
+</geometry>

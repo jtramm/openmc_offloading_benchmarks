@@ -1,30 +1,62 @@
  ============================>     TALLY 1     <============================
 
  Mesh Index (1, 1)
-   U238
-     Total Reaction Rate                  1.50727 +/- 0.00277378
-   U235
-     Total Reaction Rate                  0.174883 +/- 0.000799607
-   O16
-     Total Reaction Rate                  1.44206 +/- 0.00261469
+   Incoming Energy [0.0, 1.0)
+     U235
+       Total Reaction Rate                  0.152489 +/- 0.000828772
+       Fission Rate                         0.125974 +/- 0.000684996
+     O16
+       Total Reaction Rate                  0.392037 +/- 0.00211931
+       Fission Rate                         0.00000 +/- 0.00000
+   Incoming Energy [1.0, 20000000.0)
+     U235
+       Total Reaction Rate                  0.0223938 +/- 8.18661e-05
+       Fission Rate                         0.0085074 +/- 4.21562e-05
+     O16
+       Total Reaction Rate                  1.05003 +/- 0.00246587
+       Fission Rate                         0.00000 +/- 0.00000
  Mesh Index (2, 1)
-   U238
-     Total Reaction Rate                  0.00000 +/- 0.00000
-   U235
-     Total Reaction Rate                  0.00000 +/- 0.00000
-   O16
-     Total Reaction Rate                  1.25672 +/- 0.002983
+   Incoming Energy [0.0, 1.0)
+     U235
+       Total Reaction Rate                  0.00000 +/- 0.00000
+       Fission Rate                         0.00000 +/- 0.00000
+     O16
+       Total Reaction Rate                  0.444131 +/- 0.00158452
+       Fission Rate                         0.00000 +/- 0.00000
+   Incoming Energy [1.0, 20000000.0)
+     U235
+       Total Reaction Rate                  0.00000 +/- 0.00000
+       Fission Rate                         0.00000 +/- 0.00000
+     O16
+       Total Reaction Rate                  0.81259 +/- 0.002327
+       Fission Rate                         0.00000 +/- 0.00000
  Mesh Index (1, 2)
-   U238
-     Total Reaction Rate                  1.47602 +/- 0.0038894
-   U235
-     Total Reaction Rate                  0.158746 +/- 0.00119378
-   O16
-     Total Reaction Rate                  1.41710 +/- 0.00335957
+   Incoming Energy [0.0, 1.0)
+     U235
+       Total Reaction Rate                  0.136421 +/- 0.00119099
+       Fission Rate                         0.112606 +/- 0.000987805
+     O16
+       Total Reaction Rate                  0.359308 +/- 0.00260461
+       Fission Rate                         0.00000 +/- 0.00000
+   Incoming Energy [1.0, 20000000.0)
+     U235
+       Total Reaction Rate                  0.0223243 +/- 0.000158809
+       Fission Rate                         0.00845905 +/- 8.72750e-05
+     O16
+       Total Reaction Rate                  1.05779 +/- 0.00226174
+       Fission Rate                         0.00000 +/- 0.00000
  Mesh Index (2, 2)
-   U238
-     Total Reaction Rate                  1.50538 +/- 0.00173771
-   U235
-     Total Reaction Rate                  0.175229 +/- 0.000794293
-   O16
-     Total Reaction Rate                  1.44103 +/- 0.00149658
+   Incoming Energy [0.0, 1.0)
+     U235
+       Total Reaction Rate                  0.152627 +/- 0.000797577
+       Fission Rate                         0.126086 +/- 0.000663141
+     O16
+       Total Reaction Rate                  0.391127 +/- 0.00156112
+       Fission Rate                         0.00000 +/- 0.00000
+   Incoming Energy [1.0, 20000000.0)
+     U235
+       Total Reaction Rate                  0.0226019 +/- 7.80266e-05
+       Fission Rate                         0.00863813 +/- 4.63621e-05
+     O16
+       Total Reaction Rate                  1.04990 +/- 0.0016787
+       Fission Rate                         0.00000 +/- 0.00000
