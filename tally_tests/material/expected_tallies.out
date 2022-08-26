@@ -1,0 +1,36 @@
+ ============================>     TALLY 1     <============================
+
+ Mesh Index (1, 1, 1)
+   Material 1
+     Total Material
+       Total Reaction Rate                  4.01506 +/- 0.0142474
+       Fission Rate                         0.215514 +/- 0.00161494
+       Absorption Rate                      0.450055 +/- 0.00275823
+       Scattering Rate                      3.56500 +/- 0.011805
+       (n,gamma)                            0.233512 +/- 0.00133585
+       (n,2n)                               0.0010962 +/- 2.93954e-05
+   Material 2
+     Total Material
+       Total Reaction Rate                  16.0974 +/- 0.0718982
+       Fission Rate                         0.00000 +/- 0.00000
+       Absorption Rate                      0.0533052 +/- 0.000369298
+       Scattering Rate                      16.0441 +/- 0.0715509
+       (n,gamma)                            0.0525007 +/- 0.000373044
+       (n,2n)                               1.67958e-07 +/- 2.67453e-09
+ Mesh Index (1, 1, 2)
+   Material 1
+     Total Material
+       Total Reaction Rate                  3.94909 +/- 0.0106865
+       Fission Rate                         0.211746 +/- 0.000727922
+       Absorption Rate                      0.442506 +/- 0.00145057
+       Scattering Rate                      3.50658 +/- 0.0102395
+       (n,gamma)                            0.229803 +/- 0.000881187
+       (n,2n)                               0.000891798 +/- 6.48997e-05
+   Material 2
+     Total Material
+       Total Reaction Rate                  15.7534 +/- 0.0421626
+       Fission Rate                         0.00000 +/- 0.00000
+       Absorption Rate                      0.0519941 +/- 0.000220205
+       Scattering Rate                      15.7014 +/- 0.0419674
+       (n,gamma)                            0.0512466 +/- 0.000213507
+       (n,2n)                               1.55000e-07 +/- 5.29938e-09
